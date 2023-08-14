@@ -48,6 +48,7 @@ from PixelWhisper.unit import encode_text_into_image
 from PixelWhisper.unit import compare_text
 
 image_path = 'path/to/image.png'
+image = cv2.imread(image_path)
 message = 'This is a secret message.'
 
 rgb_image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
