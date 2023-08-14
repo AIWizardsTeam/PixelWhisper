@@ -27,8 +27,6 @@ To install the project, you can use either Poetry or pip.
     poetry install
     ```
 
-
-
 ### Using pip
 
 1. Navigate to the project directory:
