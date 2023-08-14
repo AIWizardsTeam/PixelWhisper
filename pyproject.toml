@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pixelwhisper"
+version = "0.1.0"
+description = "You put a message in the pixels of the image and then you can extract it"
+authors = ["AIWizardsTeam"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.25.0"
+opencv-python ="^4.8.0"
+scikit-image = "^0.21.0"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
