@@ -11,5 +11,4 @@ setup(
     description='Hides the text in the image and decodes it',
     author='AIWizardsTeam',
     author_email='aiwizardsteam@gmail.com',
-    packages=['Core']
     )
