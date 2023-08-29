@@ -1,4 +1,4 @@
-from .dependency import *
+from .dependencies import *
 
 def add_gauss_noise(encode_image, **kwargs):
     """
