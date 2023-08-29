@@ -1,4 +1,4 @@
-from .dependency import *
+from .dependencies import *
 
 
 def encode_text_into_image(text, image):
