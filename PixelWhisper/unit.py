@@ -1,5 +1,6 @@
 from .dependencies import *
 
+from skimage.metrics import structural_similarity as compare_ssim
 
 def encode_text_into_image(text, image):
 
